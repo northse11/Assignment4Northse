@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment4Northse.bmiResultPage"
+             Title="bmiResultPage"
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout Padding="20, 20, 20, 20"
+                         BackgroundColor="White"
+                         Spacing="20">
+        <Label Text="Calucluated BMI"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               TextColor="Black"/>
+        <Label x:Name="lblBMI"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               TextColor="Black"/>
+        <Border/>
+        <Label Text="BMI Category"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               TextColor="Black"/>
+        <Label x:Name="lblCategory"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               TextColor="Black"/>
+        <Border/>
+        <Button x:Name="btnNext"
+                Clicked="btnNext_Clicked"
+                Text="Health Recommendations"/>
+        <Button x:Name="btnReturn"
+                Clicked="btnReturn_Clicked"
+                Text="Return To Input"/>
+
+    </VerticalStackLayout>
+</ContentPage>
