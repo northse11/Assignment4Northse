@@ -4,9 +4,9 @@
              x:Class="Assignment4Northse.bmiResultPage"
              Title="bmiResultPage"
              NavigationPage.HasNavigationBar="False">
-    <VerticalStackLayout Padding="20, 20, 20, 20"
+    <VerticalStackLayout Padding="20, 40, 20, 20"
                          BackgroundColor="White"
-                         Spacing="15">
+                         Spacing="20">
         <Label Text="Calucluated BMI"
                FontSize="Large"
                HorizontalOptions="Center"

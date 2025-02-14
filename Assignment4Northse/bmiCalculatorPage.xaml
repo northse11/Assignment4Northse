@@ -7,11 +7,11 @@
     <Grid
     RowDefinitions="auto, auto, auto, auto, auto"
     ColumnDefinitions="*, *"
-    Padding="20, 20, 20, 20"
+    Padding="20, 40, 20, 20"
     RowSpacing="15"
     ColumnSpacing="20"
     BackgroundColor="White">
-        <Label Text="BMI Calculator" FontSize="Large" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <Label Text="BMI Calculator" FontSize="Large" TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
         <Frame x:Name="frameFemale" Grid.Row="1" Grid.Column="0" Padding="20" CornerRadius="15" HasShadow="True" BorderColor="#0a0e29" BackgroundColor="White">
             <VerticalStackLayout Spacing="10">
                 <Image Source="female.png" HeightRequest="100"/>

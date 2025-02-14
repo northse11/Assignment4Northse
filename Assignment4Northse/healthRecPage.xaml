@@ -4,7 +4,7 @@
              x:Class="Assignment4Northse.healthRecPage"
              Title="healthRecPage"
              NavigationPage.HasNavigationBar="False">
-    <VerticalStackLayout Padding="20, 20, 20, 20"
+    <VerticalStackLayout Padding="20, 40, 20, 20"
                          BackgroundColor="White"
                          Spacing="20">
         <Label Text="Health Recommendations"
